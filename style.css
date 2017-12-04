@@ -1,0 +1,97 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Raleway', sans-serif;
+	background-color: #b7b7b7;
+}
+
+.calculator {
+	width: 280px;
+	height: 460px;
+	background-color: #000;
+	margin: 0 auto;
+	margin-top: 10vh;
+	border-radius: 4px;
+	box-shadow: 0px 4px 3px rgba(0,0,0,0.6),
+				0px 10px 15px rgba(0,0,0,0.4),
+				0px 18px 23px rgba(0,0,0,0.3);
+}
+
+.display {	
+	height: 220px;
+}
+
+.control {	
+	height: 240px;
+	padding-left: 2px;
+	padding-top: 1px;
+}
+
+.button {
+	display: inline-flex;
+	vertical-align: top;
+	height: 43px;
+	width: 64px;
+	padding: 0;
+	margin: 1px auto;
+	border-radius: 4px;
+	font-size: 1.25em;
+	border: 1px solid #1a6666;	
+	cursor: pointer; cursor: hand;
+}
+
+#zeroBtn {
+	width: 134px;
+	position: relative;
+	top: -43px;
+}
+
+#pointBtn {
+	position: relative;
+	top: -43px;
+}
+
+#equalsBtn {
+	height: 86px;
+}
+
+.button p {
+	text-align: center;
+	margin: 10px auto;
+}
+
+.blue {
+	color: #4ff;
+}
+
+.white {
+	color: #fff;
+}
+
+.bigger-font p {
+	margin-top: 0;
+	font-size: 2em;
+}
+
+.white p {
+	font-weight: 500;
+	font-size: 1.25em;
+	margin-top: 4px;
+}
+
+#result, #string {
+	float: right;
+	margin: 10px 40px 10px auto;
+	clear: both;
+}
+
+#result {
+	margin-top: 60px;
+	font-size: 3.5em;
+}
+
+#string {
+	color: #dbdbdb;
+	font-family: Arial;
+	font-size: 1em;
+}
